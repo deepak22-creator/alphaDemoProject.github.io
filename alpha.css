@@ -1,0 +1,359 @@
+body{
+    margin: 55px 0px 10px 0px;
+    padding: 0px;
+    background-image:url(./Images/BackGroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+#menu{
+    display: none;
+}
+#Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 0px 15px 0px 20px;
+}
+#Header #Left h1{
+font-size: 18px;
+}
+#Header #Right ul{
+display: flex;
+gap: 37px;
+align-items: center;
+list-style-type: none;
+font-size: 18px;
+}
+#Header #Right ul li button{
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #d5cfcb;
+    color: white;
+    font-size: 16px;
+}
+#Header #Left h1 span{
+    font-weight: 100;
+}
+#Body{
+    text-align: center;
+    color:#ffffff;
+}
+#Body h1{
+    font-size: 57px;
+    padding-top: 54px;
+}
+#Body p{
+    font-size: 22px;
+}
+#Body button{
+    width: 220px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: white;
+    color: #696464;
+    border: none;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+#Body #learn{
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+#Content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-top: 30px;
+    border-radius: 7px;
+    margin-top: 220px;
+    color: #696464;
+}
+#Content h1{
+    font-size: 33px;
+}
+#Content p{
+    font-size: 20px;
+    border-top: 2px solid #e5e5e5;
+    width: 68%;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.7em;
+}
+#Content img{
+width: 100%;
+border-radius: 5px;
+}
+#Logo{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #696464;
+    padding-top: 30px;
+}
+#Logo div div{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+#Logo div{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.fa.fa-bolt{
+    background-color: #e89980;
+    border-radius: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 21px 28px;
+}
+.fa.fa-area-chart{
+    background-color: #7fcdb8;
+    border-radius: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 20px 20px;
+}
+.fa.fa-cloud{
+    background-color:#90b0ba;
+    border-radius: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 20px 20px;
+}
+.fa.fa-lock{
+    background-color: #e5cb95;
+    border-radius: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 22px 30px;
+}
+#Logo div h1{
+    font-size: 30px;
+}
+#Logo #div1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+#Logo #div4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+#demo-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #3c424d;
+    padding-bottom: 10px;
+}
+#Image{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    color: rgb(137,137,137);
+}
+#Image div{
+    height: 530px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background-color:#ffffff;
+    border-radius: 5px 5px 5px 5px;
+}
+#Image div img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#Image div h1{
+    font-size: 30px;
+}
+#Image div button{
+    width: 133px;
+    height: 44px;
+    border: 2px solid #e5e5e5 ;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 20px;
+    color:#696464;
+    font-size: 15px;
+}
+#SignupSection{
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    text-align: center;
+    background-color: #e89980;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#SignupSection button{
+    width: 137px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 15px;
+    color: #e89980;
+    font-size: 16px;
+}
+#SignupSection ::placeholder{
+    color: white;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+input{
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px  #e5e5e5;
+    background-color: #eba893;
+}
+#SignupSection h1{
+    font-size: 36px;
+    font-weight: 500;
+    color:#f7ddd4;
+}
+#SignupSection p{
+    font-size: 18px;
+    font-weight: 100;
+}
+#FooterSection{
+    background-color:#f0f0f0 ;
+}
+#FooterSection #About ul{
+ display:flex;
+ justify-content: center;
+ list-style-type: none;
+ font-size: 16px;
+ gap: 20px;
+ padding-bottom: 90px;
+}
+#SocialLinks{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    font-size: 32px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #c6c6c6;
+}
+
+
+
+
+
+
+
+
+/* ------------------Mobile Version------------------------ */
+@media(max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: #c4b1ab;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #Header{
+        display: none;
+    }
+    body{
+        background-size: 240%;
+        background-position-x:center;
+    }
+    #Body{
+        width: 85%;
+        margin: auto;
+    
+    }
+    #Body h1{
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    #Body button{
+        width: 100%;
+        height: 50px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    #Content{
+        width: 100%;
+        margin-top:0px;  
+    }
+    br{
+        display:none;
+    }
+    #Content h1{
+        font-size: 27px;
+    }
+    #Content p{
+        font-size: 20px;
+        margin: auto;
+    }
+    #Content img{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    #Logo #div1{
+        border-right:none;
+        border-bottom: none;
+    }
+    #Logo #div4{
+        border-top:none;
+        border-left:none;
+    }
+    #Logo div div{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #Image{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding-top: 15px;  
+    }
+    #Image div{
+        height: 450px;
+        margin-top: 15px;
+    }
+    #Image Im2{
+    margin-top: 10px;
+    }
+    #SignupSection{
+        margin-top: -2px;
+    }
+    #SignupSection button{
+        width: 284px;
+        height: 52px;
+        margin-top: 10px;
+    }
+}
